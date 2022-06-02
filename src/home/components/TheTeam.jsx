@@ -1,14 +1,11 @@
-import { Card, Grid } from "@mui/material"
+import { Card, CardContent, Grid, Typography } from "@mui/material"
 
 const TheTeam = () => {
     return (
         <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={3}>
                 <Card
-                    component="img"
-                    height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    alt="green iguana"
+                    
                 >
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -24,3 +21,5 @@ const TheTeam = () => {
         </Grid>  
     )
 }
+
+export default TheTeam;
