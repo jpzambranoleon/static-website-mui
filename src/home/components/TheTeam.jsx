@@ -65,7 +65,7 @@ const TheTeam = () => {
                                 Zurab Sabakhtarishvili
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Chief Information Officer
+                                Chief Information Officer, Co-founder
                             </Typography>
                         </CardContent>
                         <CardActions>
@@ -94,7 +94,7 @@ const TheTeam = () => {
                                 Shane Smith
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Chief Financial Officer
+                                Chief Financial Officer, Co-founder
                             </Typography>
                         </CardContent>
                         <CardActions>
@@ -120,7 +120,7 @@ const TheTeam = () => {
                                 Albert Zhang
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Chief Financial Officer
+                                Chief Financial Officer, Co-founder
                             </Typography>
                         </CardContent>
                         <CardActions>
