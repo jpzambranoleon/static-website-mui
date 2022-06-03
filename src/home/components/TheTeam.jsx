@@ -4,15 +4,15 @@ const TheTeam = () => {
     return (
         <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={3}>
-                <Card>
+                <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
                     <CardMedia 
                         component="img"
-                        height="300"
-                        image="/images/jp_ceo.jpg"
+                        height="260"
+                        image="/images/jp_ceo2.jpg"
                         alt="portrait"
                     />
                     <CardContent>
-                        <Typography gutterBottom variant="h7" component="div">
+                        <Typography gutterBottom variant="h5" component="div">
                             Jean-Paul Zambrano-Leon
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -22,10 +22,10 @@ const TheTeam = () => {
                 </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-                <Card>
+                <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
                     <CardMedia 
                         component="img"
-                        height="200"
+                        height="260"
                         image="/images/temp_portrait.jpg"
                         alt="portrait"
                     />
@@ -41,10 +41,10 @@ const TheTeam = () => {
                 </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-                <Card>
+                <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
                     <CardMedia 
                         component="img"
-                        height="300"
+                        height="260"
                         image="/images/shane_cfo.jpg"
                         alt="portrait"
                     />
@@ -59,10 +59,10 @@ const TheTeam = () => {
                 </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
-                <Card>
+                <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
                     <CardMedia 
                         component="img"
-                        height="200"
+                        height="260"
                         image="/images/temp_portrait.jpg"
                         alt="portrait"
                     />
