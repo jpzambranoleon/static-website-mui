@@ -2,7 +2,7 @@ import { Card, CardMedia, Container, Grid, Typography } from "@mui/material";
 
 const Skills = () => {
     return (
-        <Container>
+        <Container sx={{ p: 6 }}>
             <Grid container spacing={5}>
                 <Grid item sx={12} sm={6}>
                     <Typography
