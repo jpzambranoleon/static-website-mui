@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import Copyright from "../components/Copyright";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import TheTeam from "./components/TheTeam";
@@ -18,6 +19,9 @@ export default function Home() {
             </Box>
             <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
                 <TheTeam />
+            </Box>
+            <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
+                <Copyright />
             </Box>
         </main>
     );
