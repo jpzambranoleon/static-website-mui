@@ -2,7 +2,7 @@ import { Button, Card, CardMedia, Container, Grid, Stack, Typography } from "@mu
 
 const About = () => {
     return (
-        <Container>
+        <Container sx={{ py: {lg: 8} }}>
             <Grid container spacing={4}>
                 <Grid item sx={12} sm={6}>
                     <Typography
@@ -27,11 +27,11 @@ const About = () => {
                         the goal to develop applications with web3 technology.
                     </Typography>
                     <Stack
-                            sx={{ pt: 4 }}
-                            direction="row"
-                            spacing={2}
-                            justifyContent="left"
-                        >
+                        sx={{ pt: 4 }}
+                        direction="row"
+                        spacing={2}
+                        justifyContent="left"
+                    >
                         <Button variant="contained">Main call to action</Button>
                         <Button variant="outlined">Secondary action</Button>
                     </Stack>

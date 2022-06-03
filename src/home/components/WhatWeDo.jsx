@@ -3,7 +3,7 @@ import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
 
 const WhatWeDo = () => {
     return (
-        <Container>
+        <Container sx={{ py: {lg: 8} }}>
             <Typography
                 component="h1"
                 variant="h6"
