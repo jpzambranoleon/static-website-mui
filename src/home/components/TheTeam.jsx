@@ -3,7 +3,7 @@ import { Card, CardActions, CardContent, CardMedia, Container, Grid, IconButton,
 
 const TheTeam = () => {
     return (
-        <Container sx={{ py: 8 }}>
+        <Container>
             <Typography
                 component="h1"
                 variant="h6"

@@ -4,7 +4,7 @@ const About = () => {
     return (
         <Container>
             <Grid container spacing={4}>
-                <Grid item sx={12} sm={8}>
+                <Grid item sx={12} sm={6}>
                     <Typography
                         component="h1"
                         variant="h2"
@@ -37,7 +37,7 @@ const About = () => {
                         <Button variant="outlined">Secondary action</Button>
                     </Stack>
                 </Grid>
-                <Grid item xs={12} sm={4}>
+                <Grid item xs={12} sm={6}>
                     <Card>
                     <CardMedia 
                         component="img"
