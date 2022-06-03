@@ -1,17 +1,26 @@
 import { Facebook, GitHub, LinkedIn } from "@mui/icons-material";
-import { Box, Button, Card, CardActions, CardContent, CardMedia, Container, Grid, IconButton, Typography } from "@mui/material"
+import { Card, CardActions, CardContent, CardMedia, Container, Grid, IconButton, Typography } from "@mui/material"
 
 const TheTeam = () => {
     return (
         <Container>
             <Typography
                 component="h1"
-                variant="h2"
+                variant="h6"
+                align="center"
+                color="secondary"
+                gutterBottom
+            >
+                OUR TEAM
+            </Typography>
+            <Typography
+                component="h1"
+                variant="h3"
                 align="center"
                 color="text.primary"
                 gutterBottom
             >
-                Our Team
+                Meet the professionals
             </Typography>
             <Grid container spacing={4}>
                 <Grid item xs={12} sm={6} md={3}>
