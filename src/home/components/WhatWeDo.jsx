@@ -1,4 +1,4 @@
-import { Web } from "@mui/icons-material";
+import { Cached, DarkMode, Extension, Favorite, HeatPumpRounded, SmartToy, Web } from "@mui/icons-material";
 import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
 
 const WhatWeDo = () => {
@@ -27,7 +27,7 @@ const WhatWeDo = () => {
             </Typography>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
                             <Web fontSize="large" color="primary"/>
                             <Typography variant="h5" gutterBottom>
@@ -42,76 +42,71 @@ const WhatWeDo = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Web fontSize="large" color="primary"/>
+                            <DarkMode fontSize="large" color="primary"/>
                             <Typography variant="h5" gutterBottom>
-                                Web design
+                                UI/UX Design
                             </Typography>
                             <Typography color="text.secondary">
-                                We design and develop beautiful, lightning fast, 
-                                scalable, and marketing-focused websites tailored 
-                                to grow your business.
+                                We craft great user centered interfaces 
+                                for web and mobile apps. We ensure to deliver 
+                                intuitive and seamless experiences.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Web fontSize="large" color="primary"/>
+                            <Extension fontSize="large" color="primary"/>
                             <Typography variant="h5" gutterBottom>
-                                Web design
+                                Product Development
                             </Typography>
                             <Typography color="text.secondary">
-                                We design and develop beautiful, lightning fast, 
-                                scalable, and marketing-focused websites tailored 
-                                to grow your business.
+                                We help you to carefully improve your digital 
+                                product to deliver a great user experience, grow 
+                                its user base and increase retention.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Web fontSize="large" color="primary"/>
+                            <Cached fontSize="large" color="primary"/>
                             <Typography variant="h5" gutterBottom>
-                                Web design
+                                Optimization
                             </Typography>
                             <Typography color="text.secondary">
-                                We design and develop beautiful, lightning fast, 
-                                scalable, and marketing-focused websites tailored 
-                                to grow your business.
+                                We help you optimize your website or mobile app to increase your conversion rates.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Web fontSize="large" color="primary"/>
+                            <SmartToy fontSize="large" color="primary"/>
                             <Typography variant="h5" gutterBottom>
-                                Web design
+                                Machine Learning/ AI
                             </Typography>
                             <Typography color="text.secondary">
-                                We design and develop beautiful, lightning fast, 
-                                scalable, and marketing-focused websites tailored 
-                                to grow your business.
+                                We build and deploy machine learning models to
+                                improve application performance
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Web fontSize="large" color="primary"/>
+                            <Favorite fontSize="large" color="primary"/>
                             <Typography variant="h5" gutterBottom>
-                                Web design
+                                Automation
                             </Typography>
                             <Typography color="text.secondary">
-                                We design and develop beautiful, lightning fast, 
-                                scalable, and marketing-focused websites tailored 
-                                to grow your business.
+                            We help your business gain leverage and efficiency through smart automation.
                             </Typography>
                         </CardContent>
                     </Card>
