@@ -4,12 +4,7 @@ import TheTeam from "./components/TheTeam";
 export default function Home() {
     return (
         <main>
-        <Box
-          sx={{
-            bgcolor: 'background.paper',
-            pt: 8,
-            pb: 6,
-          }}
+        <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}
         >
           <Container maxWidth="sm">
             <Typography
@@ -19,7 +14,7 @@ export default function Home() {
               color="text.primary"
               gutterBottom
             >
-              Album layout
+              The Team
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               Something short and leading about the collection below—its contents,
