@@ -1,4 +1,4 @@
-import { Cached, DarkMode, Extension, Favorite, HeatPumpRounded, SmartToy, Web } from "@mui/icons-material";
+import { Cached, DarkMode, Extension, Favorite, SmartToy, Web } from "@mui/icons-material";
 import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
 
 const WhatWeDo = () => {
