@@ -7,17 +7,16 @@ const TheTeam = () => {
                 <Card>
                     <CardMedia 
                         component="img"
-                        height="200"
-                        image="/images/temp_portrait.jpg"
+                        height="300"
+                        image="/images/jp_ceo.jpg"
                         alt="portrait"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                        Lizard
+                            Jean-Paul Zambrano-Leon
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                            Ceo, Co-founder
                         </Typography>
                     </CardContent>
                 </Card>
