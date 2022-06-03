@@ -130,9 +130,6 @@ const TheTeam = () => {
                             <IconButton href="https://www.linkedin.com/in/mrhzhang/">
                                 <LinkedIn color="primary" />
                             </IconButton>
-                            <IconButton href="https://github.com/AbbaGucci">
-                                <GitHub color="primary" />
-                            </IconButton>
                         </CardActions>
                     </Card>
                 </Grid>
