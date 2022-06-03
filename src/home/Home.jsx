@@ -7,7 +7,7 @@ export default function Home() {
         <main>
         <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
             <About />
-            <Container maxWidth="sm">
+            <Container sx={{ py: 8 }}>
                 <Typography
                     component="h1"
                     variant="h2"
@@ -18,19 +18,13 @@ export default function Home() {
                     The Team
                 </Typography>
                 <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                    Something short and leading about the collection below—its contents,
-                    the creator, etc. Make it short and sweet, but not too short so folks
-                    don&apos;t simply skip over it entirely.
+                    We are a team of college friends who decided to form a company on the
+                    basis of brining our ideas to life. We come from different parts of the
+                    world, but we have one thing in common: our love of technology. Which is
+                    why we decided to build a company that follows the latest trends in 
+                    computer programing, machine learning and cryptocurrency. We may be a start-up,
+                    but we have big plans for the future.
                 </Typography>
-                <Stack
-                    sx={{ pt: 4 }}
-                    direction="row"
-                    spacing={2}
-                    justifyContent="center"
-                >
-                    <Button variant="contained">Main call to action</Button>
-                    <Button variant="outlined">Secondary action</Button>
-                </Stack>
             </Container>
         </Box>
         <Container sx={{ py: 8 }}>

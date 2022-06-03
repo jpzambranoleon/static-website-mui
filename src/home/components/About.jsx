@@ -1,4 +1,4 @@
-import { CardMedia, Container, Grid, Typography } from "@mui/material";
+import { Button, Card, CardMedia, Container, Grid, Stack, Typography } from "@mui/material";
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
                         color="text.primary"
                         gutterBottom
                     >
-                        Turning Ideas
+                        Turning ideas
                     </Typography>
                     <Typography
                         component="h1"
@@ -21,23 +21,31 @@ const About = () => {
                         color="text.primary"
                         gutterBottom
                     >
-                        Into Realities
+                        into realities
                     </Typography>
                     <Typography variant="h5" align="left" color="text.secondary" paragraph>
-                        We are a team of college friends who decided to form a company on the
-                        basis of brining our ideas to life. We come from different parts of the
-                        world, but we have one thing in common: our love of technology. Which is
-                        why we decided to build a company that follows the latest trends in 
-                        computer programing, machine learning and cryptocurrency. We may be a start-up,
-                        but we have big plans for the future.
+                        Leon Digitale is a start-up applications company with
+                        the goal to develop applications for developers.
                     </Typography>
+                    <Stack
+                            sx={{ pt: 4 }}
+                            direction="row"
+                            spacing={2}
+                            justifyContent="left"
+                        >
+                        <Button variant="contained">Main call to action</Button>
+                        <Button variant="outlined">Secondary action</Button>
+                    </Stack>
                 </Grid>
                 <Grid item xs={12} sm={4}>
+                    <Card>
                     <CardMedia 
                         component="img"
-                        image="https://unsplash.com/photos/HVp2MG15y3E"
+                        maxHeight="100%"
+                        image="/images/app_unsplash.jpg"
                         alt="random"
                     />
+                    </Card>
                 </Grid>
             </Grid>
         </Container>

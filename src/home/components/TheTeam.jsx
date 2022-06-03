@@ -3,17 +3,6 @@ import { Box, Button, Card, CardActions, CardContent, CardMedia, Grid, IconButto
 
 const TheTeam = () => {
     return (
-        <>
-        <Typography
-              component="h1"
-              variant="h2"
-              align="center"
-              color="text.primary"
-              gutterBottom
-              sx={{ pb: 6 }}
-            >
-              The Team
-        </Typography>
         <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={3}>
                 <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
@@ -129,8 +118,6 @@ const TheTeam = () => {
                 </Card>
             </Grid>
         </Grid>
-
-        </>  
     )
 }
 
