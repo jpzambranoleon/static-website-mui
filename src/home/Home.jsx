@@ -13,6 +13,9 @@ export default function Home() {
                 <WhatWeDo />
             </Box>
             <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
+                
+            </Box>
+            <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
                 <TheTeam />
             </Box>
         </main>
