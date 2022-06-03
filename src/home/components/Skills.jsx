@@ -25,42 +25,51 @@ const Skills = () => {
                     <Grid container spacing={2}>
                         <Grid item sx={12} sm={4}>
                             <Typography
-                                variant="h3"
+                                variant="h4"
                                 align="left"
                                 color="primary"
                                 paragraph
                             >
                                 3+
                             </Typography>
-                            <Typography>
+                            <Typography
+                                variant="body2"
+                                color="text.secondary"
+                            >
                                 3+ years of experience in web apps development
                                 and machine learning
                             </Typography>
                         </Grid>
                         <Grid item sx={12} sm={4}>
                             <Typography
-                                variant="h3"
+                                variant="h4"
                                 align="left"
                                 color="primary"
                                 paragraph
                             >
                                 MUI
                             </Typography>
-                            <Typography>
+                            <Typography
+                                variant="body2"
+                                color="text.secondary"
+                            >
                                 MUI library is used to make
                                 our applications look sleek and modern
                             </Typography>
                         </Grid>
                         <Grid item sx={12} sm={4}>
                             <Typography
-                                variant="h3"
+                                variant="h4"
                                 align="left"
                                 color="primary"
                                 paragraph
                             >
                                 ML/AI
                             </Typography>
-                            <Typography>
+                            <Typography
+                                variant="body2"
+                                color="text.secondary"
+                            >
                                 Advanced ML models are used in our web applications
                                 to improve the user experience
                             </Typography>
