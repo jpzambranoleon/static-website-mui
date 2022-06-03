@@ -21,13 +21,13 @@ const TheTeam = () => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <IconButton>
+                        <IconButton href="https://www.facebook.com/jeanpaul.zambranoleon/">
                             <Facebook color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton href="https://www.linkedin.com/in/jpzambranoleon/">
                             <LinkedIn color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton href="https://github.com/jpzambranoleon">
                             <GitHub color="primary" />
                         </IconButton>
                     </CardActions>
@@ -50,13 +50,13 @@ const TheTeam = () => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <IconButton>
+                        <IconButton href="https://www.facebook.com/zurab.sabakhtarishvili">
                             <Facebook color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton href="https://www.linkedin.com/in/zurab-sabakhtarishvili-33b2731b4/">
                             <LinkedIn color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton href="https://github.com/ZSabakh">
                             <GitHub color="primary" />
                         </IconButton>
                     </CardActions>
@@ -79,10 +79,10 @@ const TheTeam = () => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <IconButton>
+                        <IconButton href="https://www.facebook.com/shane.smith.3597">
                             <Facebook color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton href="https://www.linkedin.com/in/shane-smith-mba/">
                             <LinkedIn color="primary" />
                         </IconButton>
                     </CardActions>
@@ -105,13 +105,13 @@ const TheTeam = () => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <IconButton>
+                        <IconButton href="https://www.facebook.com/albert.zhang.10048">
                             <Facebook color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton href="https://www.linkedin.com/in/mrhzhang/">
                             <LinkedIn color="primary" />
                         </IconButton>
-                        <IconButton>
+                        <IconButton href="https://github.com/AbbaGucci">
                             <GitHub color="primary" />
                         </IconButton>
                     </CardActions>
