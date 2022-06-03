@@ -2,7 +2,7 @@ import { Card, CardMedia, Container, Grid, Typography } from "@mui/material";
 
 const FuturePlans = () => {
     return (
-        <Container>
+        <Container sx={{ py: 8 }}>
             <Typography
                 component="h1"
                 variant="h6"
@@ -12,13 +12,37 @@ const FuturePlans = () => {
             >
                 FUTURE PLANS
             </Typography>
-            <Grid container>
-                <Grid item sx={12} sm={8}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolor dicta, nostrum sequi pariatur consequuntur aspernatur esse aperiam omnis molestias voluptas? Sit ut alias, dolores earum reprehenderit facere blanditiis. Pariatur.
+            <Grid container spacing={5}>
+                <Grid item sx={12} sm={6}>
+                    <Typography
+                        component="h1"
+                        variant="h7"
+                        align="left"
+                        color="text.primary"
+                        paragraph
+                    >
+                        Build powerful and easy applications powered with web3 technology
+                    </Typography>
+                    <Typography
+                        variant="h6"
+                        align="left"
+                        color="text.secondary"
+                        paragraph
+                    >
+                        Whether you're creating a subscription service, an on-demand marketplace, an e-commerce store, or a portfolio showcase, theFront helps you create the best possible product for your users.
+                    </Typography>
                     <Grid container>
                         <Grid item sx={12} sm={4}>
+                            <Typography
+                                variant="h3"
+                                align="left"
+                                color="primary"
+                                paragraph
+                            >
+                                300+
+                            </Typography>
                             <Typography>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aut sapiente, sed perferendis harum accusamus ab doloribus quae adipisci totam ex omnis labore doloremque modi, sint vitae ad quod autem.
+                                Lets play
                             </Typography>
                         </Grid>
                         <Grid item sx={12} sm={4}>
@@ -33,7 +57,7 @@ const FuturePlans = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item xs={12} sm={4}>
+                <Grid item xs={12} sm={6}>
                     <Card>
                         <CardMedia 
                             component="img"
