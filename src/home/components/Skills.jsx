@@ -1,17 +1,8 @@
 import { Card, CardMedia, Container, Grid, Typography } from "@mui/material";
 
-const FuturePlans = () => {
+const Skills = () => {
     return (
         <Container>
-            <Typography
-                component="h1"
-                variant="h6"
-                align="center"
-                color="secondary"
-                gutterBottom
-            >
-                FUTURE PLANS
-            </Typography>
             <Grid container spacing={5}>
                 <Grid item sx={12} sm={6}>
                     <Typography
@@ -29,9 +20,9 @@ const FuturePlans = () => {
                         color="text.secondary"
                         paragraph
                     >
-                        Whether you're creating a subscription service, an on-demand marketplace, an e-commerce store, or a portfolio showcase, theFront helps you create the best possible product for your users.
+                        Our talented team of developers have the skills to build, deploy, and maintain web applications
                     </Typography>
-                    <Grid container>
+                    <Grid container spacing={2}>
                         <Grid item sx={12} sm={4}>
                             <Typography
                                 variant="h3"
@@ -39,20 +30,39 @@ const FuturePlans = () => {
                                 color="primary"
                                 paragraph
                             >
-                                300+
+                                3+
                             </Typography>
                             <Typography>
-                                Lets play
-                            </Typography>
-                        </Grid>
-                        <Grid item sx={12} sm={4}>
-                            <Typography>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aut sapiente, sed perferendis harum accusamus ab doloribus quae adipisci totam ex omnis labore doloremque modi, sint vitae ad quod autem.
+                                3+ years of experience in web apps development
+                                and machine learning
                             </Typography>
                         </Grid>
                         <Grid item sx={12} sm={4}>
+                            <Typography
+                                variant="h3"
+                                align="left"
+                                color="primary"
+                                paragraph
+                            >
+                                MUI
+                            </Typography>
                             <Typography>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aut sapiente, sed perferendis harum accusamus ab doloribus quae adipisci totam ex omnis labore doloremque modi, sint vitae ad quod autem.
+                                MUI library is used to make
+                                our applications look sleek and modern
+                            </Typography>
+                        </Grid>
+                        <Grid item sx={12} sm={4}>
+                            <Typography
+                                variant="h3"
+                                align="left"
+                                color="primary"
+                                paragraph
+                            >
+                                ML/AI
+                            </Typography>
+                            <Typography>
+                                Advanced ML models are used in our web applications
+                                to improve the user experience
                             </Typography>
                         </Grid>
                     </Grid>
@@ -72,4 +82,4 @@ const FuturePlans = () => {
     )
 }
 
-export default FuturePlans;
+export default Skills;

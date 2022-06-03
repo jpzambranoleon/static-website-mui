@@ -1,6 +1,6 @@
-import { Box, Button, Container, Typography, Stack } from "@mui/material";
+import { Box } from "@mui/material";
 import About from "./components/About";
-import FuturePlans from "./components/FuturePlans";
+import Skills from "./components/Skills";
 import TheTeam from "./components/TheTeam";
 import WhatWeDo from "./components/WhatWeDo";
 
@@ -14,7 +14,7 @@ export default function Home() {
                 <WhatWeDo />
             </Box>
             <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
-                <FuturePlans />
+                <Skills />
             </Box>
             <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
                 <TheTeam />
