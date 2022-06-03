@@ -93,7 +93,7 @@ const TheTeam = () => {
                     <CardMedia 
                         component="img"
                         height="260"
-                        image="/images/albert_cfo2.jpg"
+                        image="/images/albert_cfo.jpg"
                         alt="portrait"
                     />
                     <CardContent sx={{ flexGrow: 1 }}>
