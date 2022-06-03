@@ -2,30 +2,29 @@ import { Button, Card, CardMedia, Container, Grid, Stack, Typography } from "@mu
 
 const About = () => {
     return (
-        <Container>
+        <Container sx={{  }}>
             <Grid container spacing={4}>
                 <Grid item sx={12} sm={6}>
                     <Typography
                         component="h1"
-                        variant="h2"
+                        variant="h3"
                         align="left"
                         color="text.primary"
                         gutterBottom
                     >
-                        Turning ideas
+                        Turning ideas into realities: 
                     </Typography>
                     <Typography
-                        component="h1"
-                        variant="h2"
-                        align="left"
-                        color="text.primary"
+                        component="h3"
+                        variant="h3"
+                        color="primary"
                         gutterBottom
                     >
-                        into realities
+                        Leone Digitale
                     </Typography>
                     <Typography variant="h5" align="left" color="text.secondary" paragraph>
                         Leon Digitale is a start-up applications company with
-                        the goal to develop applications for developers.
+                        the goal to develop applications with web3 technology.
                     </Typography>
                     <Stack
                             sx={{ pt: 4 }}
