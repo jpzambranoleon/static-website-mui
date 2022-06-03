@@ -12,11 +12,11 @@ const TheTeam = () => {
                         alt="portrait"
                     />
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h7" component="div">
                             Jean-Paul Zambrano-Leon
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Ceo, Co-founder
+                            Chief Executive Officer, Co-founder
                         </Typography>
                     </CardContent>
                 </Card>
@@ -44,17 +44,16 @@ const TheTeam = () => {
                 <Card>
                     <CardMedia 
                         component="img"
-                        height="200"
-                        image="/images/temp_portrait.jpg"
+                        height="300"
+                        image="/images/shane_cfo.jpg"
                         alt="portrait"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                        Lizard
+                            Shane Smith
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                            Chief Financial Officer
                         </Typography>
                     </CardContent>
                 </Card>
