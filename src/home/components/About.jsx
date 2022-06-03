@@ -2,7 +2,7 @@ import { Button, Card, CardMedia, Container, Grid, Stack, Typography } from "@mu
 
 const About = () => {
     return (
-        <Container sx={{  }}>
+        <Container>
             <Grid container spacing={4}>
                 <Grid item sx={12} sm={6}>
                     <Typography
