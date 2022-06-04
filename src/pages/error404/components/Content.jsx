@@ -33,6 +33,9 @@ const Content = () => {
                         Back home
                     </Button>
                 </Grid>
+                <Grid item xs={12} sm={6}>
+                    <img />
+                </Grid>
             </Grid> 
       </Container>  
     )
