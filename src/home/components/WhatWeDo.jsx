@@ -3,7 +3,7 @@ import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
 
 const WhatWeDo = () => {
     return (
-        <Container sx={{ py: {lg: 8} }}>
+        <Container>
             <Typography
                 component="h1"
                 variant="h6"
@@ -29,7 +29,7 @@ const WhatWeDo = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Web fontSize="large" color="primary"/>
+                            <Web fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
                                 Web design
                             </Typography>
@@ -44,7 +44,7 @@ const WhatWeDo = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <DarkMode fontSize="large" color="primary"/>
+                            <DarkMode fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
                                 UI/UX Design
                             </Typography>
@@ -59,7 +59,7 @@ const WhatWeDo = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Extension fontSize="large" color="primary"/>
+                            <Extension fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
                                 Product Development
                             </Typography>
@@ -74,7 +74,7 @@ const WhatWeDo = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Cached fontSize="large" color="primary"/>
+                            <Cached fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
                                 Optimization
                             </Typography>
@@ -87,7 +87,7 @@ const WhatWeDo = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <SmartToy fontSize="large" color="primary"/>
+                            <SmartToy fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
                                 Machine Learning/ AI
                             </Typography>
@@ -101,7 +101,7 @@ const WhatWeDo = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Card sx={{ height: '100%', minWidth: 275 }}>
                         <CardContent>
-                            <Favorite fontSize="large" color="primary"/>
+                            <Favorite fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
                                 Automation
                             </Typography>
