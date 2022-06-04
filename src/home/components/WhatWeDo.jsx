@@ -15,14 +15,20 @@ const WhatWeDo = () => {
             </Typography>
             <Typography
                 component="h1"
-                variant="h3"
+                variant="h4"
                 align="center"
                 color="text.primary"
+                fontWeight="bold"
                 gutterBottom
             >
                 We craft beautiful websites and digital products
             </Typography>
-            <Typography variant="h5" align="center" color="text.secondary" paragraph>
+            <Typography 
+                variant="h6" 
+                align="center" 
+                color="text.secondary" 
+                paragraph
+            >
                 We design, develop and launch websites and products for startups, companies and ourselves.
             </Typography>
             <Grid container spacing={2}>
