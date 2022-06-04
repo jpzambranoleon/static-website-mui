@@ -8,7 +8,7 @@ const TheTeam = () => {
                 component="h1"
                 variant="h6"
                 align="center"
-                color="secondary"
+                color="primary"
                 gutterBottom
             >
                 OUR TEAM
