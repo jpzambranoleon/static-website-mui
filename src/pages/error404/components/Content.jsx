@@ -12,7 +12,7 @@ const Content = () => {
       <Container>
             <Grid container>
                 <Grid item sx={12} sm={6}>
-                    <Box sx={{ pt: 10 }}>
+                    <Box sx={{ pt: 15 }}>
                         <Typography
                             component="h1"
                             variant="h1"
@@ -34,7 +34,7 @@ const Content = () => {
                             color="text.secondary"
                             paragraph
                         >
-                            If you think this is a problem with us, please tell us
+                            {/*If you think this is a problem with us, please tell us */}
                         </Typography>
                         <Button variant="contained" size="large" sx={{ mt: 1 }}>
                             Back home
