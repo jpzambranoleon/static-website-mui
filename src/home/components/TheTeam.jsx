@@ -15,9 +15,10 @@ const TheTeam = () => {
             </Typography>
             <Typography
                 component="h1"
-                variant="h3"
+                variant="h4"
                 align="center"
                 color="text.primary"
+                fontWeight="bold"
                 gutterBottom
             >
                 Meet the professionals
