@@ -6,19 +6,23 @@ const itemData = [
         title: 'plans'
     },
     {
-        img: '/images/app_unsplash.jpg',
-        title: 'app'
+        img: '/images/develop.jpg',
+        title: 'develop'
     },
     {
         img: '/images/nerds.jpg',
         title: 'nerds'
+    },
+    {
+        img: '/images/app_unsplash.jpg',
+        title: 'app'
     },
 ]
 
 const MasonryImageList = () => {
     return (
         <Box sx={{ width: '100%', height: '100%' }}>
-            <ImageList variant="masonry" cols={2} gap={8}>
+            <ImageList variant="masonry" cols={3} gap={8}>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
                         <img
