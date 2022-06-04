@@ -1,5 +1,5 @@
 import { Mail } from "@mui/icons-material";
-import { Button } from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 
 const ContactUs = () => {
     return (
@@ -31,10 +31,12 @@ const ContactUs = () => {
             >
                 Unlike teams from big agencies, we will treat your project as ours. We will walk you through our smooth and simple process.
             </Typography>
-            <Button>
-                <Mail />
-                Contact us
-            </Button>
+            <Typography align="center">
+                <Button variant="contained">
+                    <Mail sx={{ mr: 2 }}/>
+                    Contact us
+                </Button>
+            </Typography>
         </Container>
     )
 };
