@@ -1,4 +1,5 @@
 import { Button, Card, CardMedia, Container, Grid, Stack, Typography } from "@mui/material";
+import MasonryImageList from "./MasonryImageList";
 
 const About = () => {
     return (
@@ -37,14 +38,7 @@ const About = () => {
                     </Stack>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <Card>
-                    <CardMedia 
-                        component="img"
-                        maxHeight="100%"
-                        image="/images/app_unsplash.jpg"
-                        alt="random"
-                    />
-                    </Card>
+                    <MasonryImageList />
                 </Grid>
             </Grid>
         </Container>
