@@ -3,11 +3,11 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
-export default function MasonryImageList() {
+const MasonryImageList = () => {
   return (
-    <Box sx={{ width: 500, height: 450, overflowY: 'scroll' }}>
-      <ImageList variant="masonry" cols={3} gap={8}>
-        {itemData.map((item) => (
+      <Box>
+        <ImageList variant="masonry" cols={3} gap={8}>
+          {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
               src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -16,19 +16,21 @@ export default function MasonryImageList() {
               loading="lazy"
             />
           </ImageListItem>
-        ))}
-      </ImageList>
-    </Box>
-  );
+          ))}
+        </ImageList>
+      </Box>
+  )
 }
+
+export default MasonryImageList;
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
+    img: '/images/app_unsplash.jpg',
     title: 'Bed',
   },
   {
-    img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
+    img: '/images/slick_laptop.jpg',
     title: 'Books',
   },
   {
