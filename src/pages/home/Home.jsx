@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import Copyright from "../components/Copyright";
 import About from "./components/About";
 import ContactUs from "./components/ContactUs";
 import Skills from "./components/Skills";
