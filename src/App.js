@@ -1,4 +1,6 @@
+import { Box } from "@mui/material";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Copyright from "./components/Copyright";
 import Navbar from "./components/Navbar";
 import Home from "./home/Home";
 
@@ -11,7 +13,9 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
-      <Home />
+      <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
+        <Copyright />
+      </Box>
     </div>
   );
 }

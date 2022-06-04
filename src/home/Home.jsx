@@ -28,9 +28,6 @@ export default function Home() {
             <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
                 <ContactUs />
             </Box>
-            <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
-                <Copyright />
-            </Box>
         </main>
     );
   }
