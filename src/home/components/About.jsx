@@ -4,13 +4,14 @@ import MasonryImageList from "./MasonryImageList";
 const About = () => {
     return (
         <Container sx={{ py: {lg: 8} }}>
-            <Grid container spacing={4}>
+            <Grid container spacing={5}>
                 <Grid item sx={12} sm={6}>
                     <Typography
                         component="h1"
                         variant="h3"
                         align="left"
                         color="text.primary"
+                        fontWeight="bold"
                         gutterBottom
                     >
                         Turning ideas into realities: 
