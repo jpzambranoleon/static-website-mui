@@ -1,5 +1,5 @@
 import { Home } from "@mui/icons-material";
-import { Box, Drawer, List, ListItem, ListItemButton, ListItemIcon } from "@mui/material";
+import { Box, ClickAwayListener, Drawer, List, ListItem, ListItemButton, ListItemIcon } from "@mui/material";
 import { useState } from "react";
 
 const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
@@ -8,18 +8,20 @@ const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
     };
 
     return (
-        <Drawer anchor="left" open={openDrawer} >
-            <Box sx={{ width: 250, height: '100%' }}>
-                <List>
-                    <ListItem disablePadding>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                <Home />
-                            </ListItemIcon>
-                        </ListItemButton>
-                    </ListItem>
-                </List>
-            </Box>   
+        <Drawer anchor="left" open={openDrawer} sx={{ display: { sm: 'none' } }} >
+            <ClickAwayListener onClickAway={handleDrawerClose}>
+                <Box sx={{ width: 250, height: '100%' }}>
+                    <List>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemIcon>
+                                    <Home />
+                                </ListItemIcon>
+                            </ListItemButton>
+                        </ListItem>
+                    </List>
+                </Box>  
+            </ClickAwayListener> 
         </Drawer>
     )
 };
