@@ -29,10 +29,18 @@ const About = () => {
                         the goal to develop applications with web3 technology.
                     </Typography>
                     <Stack
-                        sx={{ pt: 4 }}
+                        sx={{ pt: 4, display: { xs: 'none', sm: 'flex' } }}
                         direction="row"
                         spacing={2}
                         justifyContent="left"
+                    >
+                        <Button variant="contained">Main call to action</Button>
+                        <Button variant="outlined">Secondary action</Button>
+                    </Stack>
+                    <Stack
+                        sx={{ pt: 4, display: { xs: 'flex', sm: 'none' } }}
+                        direction="column"
+                        spacing={2}
                     >
                         <Button variant="contained">Main call to action</Button>
                         <Button variant="outlined">Secondary action</Button>
