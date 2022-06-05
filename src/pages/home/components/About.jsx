@@ -1,4 +1,4 @@
-import { Button, Card, CardMedia, Container, Grid, Stack, Typography } from "@mui/material";
+import { Button, Container, Grid, Stack, Typography } from "@mui/material";
 import MasonryImageList from "./MasonryImageList";
 
 const About = () => {
