@@ -25,8 +25,8 @@ const About = () => {
                         Leone Digitale
                     </Typography>
                     <Typography variant="h5" align="left" color="text.secondary" paragraph>
-                        Leon Digitale is a start-up applications company with
-                        the goal to develop applications with web3 technology.
+                        We are a start-up applications company that specializes in quality and simplicity.
+                        Our digital products are designed to be helpful, simple, and enjoyable to use.
                     </Typography>
                     <Stack
                         sx={{ pt: 4, display: { xs: 'none', sm: 'flex' } }}
