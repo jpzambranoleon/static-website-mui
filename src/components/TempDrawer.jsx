@@ -1,6 +1,4 @@
-import { Home } from "@mui/icons-material";
-import { Box, ClickAwayListener, Drawer, List, ListItem, ListItemButton, ListItemIcon, Typography } from "@mui/material";
-import { useState } from "react";
+import { Box, ClickAwayListener, Drawer, List, ListItem, ListItemButton, ListItemText, Typography } from "@mui/material";
 
 const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
     const handleDrawerClose = () => {
@@ -24,9 +22,29 @@ const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
                         </ListItem>
                         <ListItem disablePadding>
                             <ListItemButton>
-                                <ListItemIcon>
-                                    <Home />
-                                </ListItemIcon>
+                                <ListItemText>
+                                    <Typography>
+                                        Home
+                                    </Typography>
+                                </ListItemText>
+                            </ListItemButton>
+                        </ListItem>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemText>
+                                    <Typography>
+                                        About
+                                    </Typography>
+                                </ListItemText>
+                            </ListItemButton>
+                        </ListItem>
+                        <ListItem disablePadding>
+                            <ListItemButton>
+                                <ListItemText>
+                                    <Typography>
+                                        Team
+                                    </Typography>
+                                </ListItemText>
                             </ListItemButton>
                         </ListItem>
                     </List>
