@@ -3,9 +3,13 @@ import { Box, Drawer, List, ListItem, ListItemButton, ListItemIcon } from "@mui/
 import { useState } from "react";
 
 const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
+    const handleDrawerClose = () => {
+        setOpenDrawer(false);
+    };
+
     return (
-        <Drawer open={openDrawer} >
-            <Box>
+        <Drawer anchor="left" open={openDrawer} >
+            <Box sx={{ width: 250, height: '100%' }}>
                 <List>
                     <ListItem disablePadding>
                         <ListItemButton>

@@ -33,7 +33,7 @@ const WhatWeDo = () => {
             </Typography>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ height: '100%', minWidth: 275 }}>
+                    <Card sx={{ height: '100%' }}>
                         <CardContent>
                             <Web fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
@@ -48,7 +48,7 @@ const WhatWeDo = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ height: '100%', minWidth: 275 }}>
+                    <Card sx={{ height: '100%' }}>
                         <CardContent>
                             <DarkMode fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
@@ -63,7 +63,7 @@ const WhatWeDo = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ height: '100%', minWidth: 275 }}>
+                    <Card sx={{ height: '100%' }}>
                         <CardContent>
                             <Extension fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
@@ -78,7 +78,7 @@ const WhatWeDo = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ height: '100%', minWidth: 275 }}>
+                    <Card sx={{ height: '100%' }}>
                         <CardContent>
                             <Cached fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
@@ -91,7 +91,7 @@ const WhatWeDo = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ height: '100%', minWidth: 275 }}>
+                    <Card sx={{ height: '100%' }}>
                         <CardContent>
                             <SmartToy fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
@@ -105,7 +105,7 @@ const WhatWeDo = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card sx={{ height: '100%', minWidth: 275 }}>
+                    <Card sx={{ height: '100%' }}>
                         <CardContent>
                             <Favorite fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
