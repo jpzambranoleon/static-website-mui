@@ -21,7 +21,7 @@ const WhatWeDo = () => {
                 fontWeight="bold"
                 gutterBottom
             >
-                We craft beautiful websites and digital products
+                We craft beautiful web apps and digital products
             </Typography>
             <Typography 
                 variant="h6" 
