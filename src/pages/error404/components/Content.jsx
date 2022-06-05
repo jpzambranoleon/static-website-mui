@@ -12,7 +12,7 @@ const Content = () => {
       <Container>
             <Grid container spacing={3}>
                 <Grid item sx={12} sm={6}>
-                    <Box sx={{ pt: 15 }}>
+                    <Box sx={{ pt: { xl: 15 } }}>
                         <Typography
                             component="h1"
                             variant="h1"
