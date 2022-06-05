@@ -10,7 +10,7 @@ const itemData = [
 const Content = () => {
     return (
       <Container>
-            <Grid container>
+            <Grid container spacing={3}>
                 <Grid item sx={12} sm={6}>
                     <Box sx={{ pt: 15 }}>
                         <Typography

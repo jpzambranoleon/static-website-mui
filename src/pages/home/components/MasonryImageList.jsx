@@ -17,7 +17,7 @@ const itemData = [
 
 const MasonryImageList = () => {
     return (
-        <Box sx={{ width: '100%', height: '100px' }}>
+        <Box sx={{ width: '100%', height: '100px', display: { xs: 'none', sm: 'block' } }}>
             <ImageList variant="masonry" cols={2} gap={8}>
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>

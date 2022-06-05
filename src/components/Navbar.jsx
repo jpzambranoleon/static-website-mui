@@ -4,7 +4,7 @@ import { AppBar, Box, Button, IconButton, Toolbar, Typography } from "@mui/mater
 const Navbar = () => {
     return (
         <AppBar position="relative" sx={{ bgcolor: 'background.paper' }}>
-            <Toolbar sx={{ width: { lg: '76%' }, margin: { lg: '0 auto'}, justifyContent: 'space-between' }}>
+            <Toolbar sx={{ width: { xl: '76%', lg: '90%' }, margin: { xl: '0 auto', lg: '0 auto' }, justifyContent: 'space-between' }}>
                 <Typography variant="h5" color="primary" noWrap>
                     Leone Digitale
                 </Typography>
