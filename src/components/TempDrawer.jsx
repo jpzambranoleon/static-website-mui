@@ -1,5 +1,5 @@
 import { Home } from "@mui/icons-material";
-import { Box, ClickAwayListener, Drawer, List, ListItem, ListItemButton, ListItemIcon } from "@mui/material";
+import { Box, ClickAwayListener, Drawer, List, ListItem, ListItemButton, ListItemIcon, Typography } from "@mui/material";
 import { useState } from "react";
 
 const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
@@ -12,6 +12,16 @@ const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
             <ClickAwayListener onClickAway={handleDrawerClose}>
                 <Box sx={{ width: 250, height: '100%' }}>
                     <List>
+                        <ListItem>
+                            <Typography 
+                                component="h3"
+                                variant="h5"
+                                color="primary"
+                                gutterBottom
+                            >
+                                Leone Digitale
+                            </Typography>
+                        </ListItem>
                         <ListItem disablePadding>
                             <ListItemButton>
                                 <ListItemIcon>
