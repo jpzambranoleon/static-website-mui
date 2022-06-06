@@ -1,6 +1,6 @@
 import { Code, Laptop, Palette } from "@mui/icons-material";
 import { Avatar, Container, Grid, Typography } from "@mui/material";
-import { blue, lightBlue } from "@mui/material/colors";
+import { blue } from "@mui/material/colors";
 
 const Tech = () => {
     return (
@@ -44,8 +44,8 @@ const Tech = () => {
                         Designed to be modern
                     </Typography>
                     <Typography variant="body1" color="text.secondary">
-                        theFront is built to make your life easier. 
-                        Variables, build tooling, documentation, and reusable components.
+                        Our development team uses modern frameworks such as React and MUI
+                        to make our applications attractive to users.
                     </Typography>
                 </Grid>
                 <Grid item sx={12} sm={4}>
@@ -53,11 +53,11 @@ const Tech = () => {
                         <Code color="primary"/>
                     </Avatar>
                     <Typography gutterBottom variant="h6">
-                        Built for developers
+                        Open Source
                     </Typography>
                     <Typography variant="body1" color="text.secondary">
-                        theFront is built to make your life easier. 
-                        Variables, build tooling, documentation, and reusable components.
+                        Our web applications are open source, giving developers the ability
+                        to publically access, modify, and distribute our code.
                     </Typography>
                 </Grid>
             </Grid>
