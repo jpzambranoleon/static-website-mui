@@ -25,9 +25,6 @@ const Navbar = () => {
                         <Button color="primary">
                             About
                         </Button>
-                        <Button color="primary">
-                            Team
-                        </Button>
                     </Box>
                     <IconButton 
                         color="primary" 

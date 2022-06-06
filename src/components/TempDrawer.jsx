@@ -38,15 +38,6 @@ const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
                                 </ListItemText>
                             </ListItemButton>
                         </ListItem>
-                        <ListItem disablePadding>
-                            <ListItemButton>
-                                <ListItemText>
-                                    <Typography>
-                                        Team
-                                    </Typography>
-                                </ListItemText>
-                            </ListItemButton>
-                        </ListItem>
                     </List>
                 </Box>  
             </ClickAwayListener> 
