@@ -29,7 +29,7 @@ const WhatWeDo = () => {
                 color="text.secondary" 
                 paragraph
             >
-                We design, develop and launch websites and products for startups, companies and ourselves.
+                We design, develop and launch web applications and products for startups, companies, and ourselves.
             </Typography>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6} md={4}>
@@ -40,9 +40,8 @@ const WhatWeDo = () => {
                                 Web design
                             </Typography>
                             <Typography color="text.secondary">
-                                We design and develop beautiful, lightning fast, 
-                                scalable, and marketing-focused websites tailored 
-                                to grow your business.
+                                We design and develop beautiful, lightning-fast, 
+                                and scalable, web apps tailored to improve your experience.
                             </Typography>
                         </CardContent>
                     </Card>
@@ -55,9 +54,8 @@ const WhatWeDo = () => {
                                 UI/UX Design
                             </Typography>
                             <Typography color="text.secondary">
-                                We craft great user centered interfaces 
-                                for web and mobile apps. We ensure to deliver 
-                                intuitive and seamless experiences.
+                                We craft great user-centered interfaces for web and mobile apps. 
+                                We ensure to deliver intuitive and seamless experiences.
                             </Typography>
                         </CardContent>
                     </Card>
@@ -70,9 +68,9 @@ const WhatWeDo = () => {
                                 Product Development
                             </Typography>
                             <Typography color="text.secondary">
-                                We help you to carefully improve your digital 
-                                product to deliver a great user experience, grow 
-                                its user base and increase retention.
+                                We carefully improve our digital products to 
+                                deliver a great user experience, grow our user base, 
+                                and increase retention.
                             </Typography>
                         </CardContent>
                     </Card>
@@ -85,7 +83,8 @@ const WhatWeDo = () => {
                                 Optimization
                             </Typography>
                             <Typography color="text.secondary">
-                                We help you optimize your website or mobile app to increase your conversion rates.
+                                Our web apps are optimized to be simple and enjoyable for
+                                users.
                             </Typography>
                         </CardContent>
                     </Card>
@@ -95,11 +94,11 @@ const WhatWeDo = () => {
                         <CardContent>
                             <SmartToy fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
-                                Machine Learning/ AI
+                                Machine Learning
                             </Typography>
                             <Typography color="text.secondary">
-                                We build and deploy machine learning models to
-                                improve application performance
+                                We build and deploy machine learning models for our 
+                                applications to improve performance and increase user activity.
                             </Typography>
                         </CardContent>
                     </Card>
@@ -112,7 +111,7 @@ const WhatWeDo = () => {
                                 Automation
                             </Typography>
                             <Typography color="text.secondary">
-                            We help your business gain leverage and efficiency through smart automation.
+                                We help your business gain leverage and efficiency through intelligent automation.
                             </Typography>
                         </CardContent>
                     </Card>
