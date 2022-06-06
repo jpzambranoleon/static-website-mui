@@ -32,10 +32,15 @@ const ContactUs = () => {
                 Unlike teams from big agencies, we will treat your project as ours. We will walk you through our smooth and simple process.
             </Typography>
             <Typography align="center">
-                <Button variant="contained">
+                <Button variant="contained" disabled>
                     <Mail sx={{ mr: 2 }}/>
-                    Contact us
+                    <Typography>
+                        Contact us
+                    </Typography>
                 </Button>
+                <Typography color="text.secondary">
+                    Coming Soon
+                </Typography>
             </Typography>
         </Container>
     )
