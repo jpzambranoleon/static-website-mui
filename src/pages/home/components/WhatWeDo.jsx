@@ -29,7 +29,7 @@ const WhatWeDo = () => {
                 color="text.secondary" 
                 paragraph
             >
-                We design, develop and launch web applications and products for startups, companies, and ourselves.
+                We design, build, and deploy web applications and digital products that are simple and easy to use.
             </Typography>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={6} md={4}>
