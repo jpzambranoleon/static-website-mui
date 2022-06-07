@@ -37,7 +37,7 @@ const TheTeam = () => {
                                 Jean-Paul Zambrano-Leon
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Chief Executive Officer, Co-founder
+                                Chief Executive Officer, Founder
                             </Typography>
                         </CardContent>
                         <CardActions>
