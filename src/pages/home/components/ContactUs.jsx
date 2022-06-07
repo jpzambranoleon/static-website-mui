@@ -48,7 +48,6 @@ const ContactUs = () => {
                         <Box sx={{ mt: { xl: 7 } }}>
                             <Typography
                                 variant="h5"
-                                color="primary"
                                 gutterBottom
                             >
                                 Team Finder

@@ -34,16 +34,16 @@ const About = () => {
                         spacing={2}
                         justifyContent="left"
                     >
-                        <Button variant="contained">Main call to action</Button>
-                        <Button variant="outlined">Secondary action</Button>
+                        <Button variant="contained">Find out more</Button>
+                        <Button variant="outlined">View team</Button>
                     </Stack>
                     <Stack
                         sx={{ pt: 4, display: { xs: 'flex', sm: 'none' } }}
                         direction="column"
                         spacing={2}
                     >
-                        <Button variant="contained">Main call to action</Button>
-                        <Button variant="outlined">Secondary action</Button>
+                        <Button variant="contained">Find out more</Button>
+                        <Button variant="outlined">View team</Button>
                     </Stack>
                 </Grid>
                 <Grid item xs={12} sm={6}>
