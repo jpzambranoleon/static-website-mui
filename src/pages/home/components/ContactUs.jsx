@@ -81,7 +81,7 @@ const ContactUs = () => {
                             <CardMedia 
                                 component="img"
                                 height="260"
-                                image="/images/coming-soon.jpg"
+                                image="/images/soccer-coming-soon.jpg"
                                 alt="coming-soon"  
                             />
                         </Card>
