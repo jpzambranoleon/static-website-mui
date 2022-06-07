@@ -19,13 +19,10 @@ export default function Home() {
                 <Tech />
             </Box>
             <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
-                <Skills />
+                <ContactUs />
             </Box>
             <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
                 <TheTeam />
-            </Box>
-            <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
-                <ContactUs />
             </Box>
         </main>
     );

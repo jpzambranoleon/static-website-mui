@@ -13,7 +13,7 @@ const Tech = () => {
                 fontWeight="bold"
                 gutterBottom
             >
-                Build accessible React apps with speed
+                Built for quality and simplicity
             </Typography>
             <Typography 
                 variant="h6" 
@@ -21,7 +21,7 @@ const Tech = () => {
                 color="text.secondary" 
                 paragraph
             >
-                Build a beautiful, modern website with flexible, fully customizable, atomic MUI components.
+                Our web apps are designed to match the quality of modern apps and be simple to use
             </Typography>
             <Grid container spacing={3} align="center">
                 <Grid item sx={12} sm={4}>
@@ -29,11 +29,11 @@ const Tech = () => {
                         <Laptop color="primary"/>
                     </Avatar>
                     <Typography gutterBottom variant="h6">
-                        Built for developers
+                        Simple UI/UX
                     </Typography>
                     <Typography variant="body1" color="text.secondary">
-                        theFront is built to make your life easier. 
-                        Variables, build tooling, documentation, and reusable components.
+                        Our applications are built to make your life easier.
+                        We design our apps with simple and enjoyable UI/UX components.
                     </Typography>
                 </Grid>
                 <Grid item sx={12} sm={4}>
@@ -45,7 +45,7 @@ const Tech = () => {
                     </Typography>
                     <Typography variant="body1" color="text.secondary">
                         Our development team uses modern frameworks such as React and MUI
-                        to make our applications attractive to users.
+                        to build and deploy our applications.
                     </Typography>
                 </Grid>
                 <Grid item sx={12} sm={4}>

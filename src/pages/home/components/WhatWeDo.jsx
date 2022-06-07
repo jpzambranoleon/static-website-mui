@@ -108,10 +108,10 @@ const WhatWeDo = () => {
                         <CardContent>
                             <Favorite fontSize="large" color="primary" sx={{ mb: 2 }} />
                             <Typography variant="h5" gutterBottom>
-                                Automation
+                                Continuous updates
                             </Typography>
                             <Typography color="text.secondary">
-                                We help your business gain leverage and efficiency through intelligent automation.
+                                We continually deploy improvements and new updates to our web apps.
                             </Typography>
                         </CardContent>
                     </Card>
