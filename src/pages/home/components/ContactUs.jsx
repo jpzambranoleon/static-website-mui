@@ -1,5 +1,5 @@
 import { Mail } from "@mui/icons-material";
-import { Box, Button, Card, CardContent, CardMedia, Container, Grid, ImageListItem, Typography } from "@mui/material";
+import { Box, Button, Card, CardMedia, Container, Grid, Typography } from "@mui/material";
 
 const ContactUs = () => {
     return (
