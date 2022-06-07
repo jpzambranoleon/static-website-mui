@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid, ImageListItem, Typography } from "@mui/material";
+import { Box, Container, Grid, ImageListItem, Typography } from "@mui/material";
 
 const itemData = [
     {
