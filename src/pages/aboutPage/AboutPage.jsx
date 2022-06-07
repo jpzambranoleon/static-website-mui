@@ -2,8 +2,8 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 
 const itemData = [
     {
-        img: '/images/png_confused_girl.png',
-        title: 'girl'
+        img: '/images/leone_digitale_group.jpg',
+        title: 'team'
     },
 ]
 
