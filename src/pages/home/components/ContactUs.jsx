@@ -1,5 +1,5 @@
 import { Mail } from "@mui/icons-material";
-import { Box, Button, Container, Grid, Typography } from "@mui/material";
+import { Button, Container, Typography } from "@mui/material";
 
 const ContactUs = () => {
     return (
@@ -29,7 +29,7 @@ const ContactUs = () => {
                 color="text.secondary" 
                 paragraph
             >
-                Unlike teams from big agencies, we will treat your project as ours. We will walk you through our smooth and simple process.
+                We are constantly working on new and existing projects. User feedback is used to make improvements and updates.
             </Typography>
             <Typography align="center">
                 <Button variant="contained" disabled>

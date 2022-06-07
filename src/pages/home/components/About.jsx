@@ -14,7 +14,7 @@ const About = () => {
                         fontWeight="bold"
                         gutterBottom
                     >
-                        Turning ideas into realities: 
+                        Turning ideas into realities 
                     </Typography>
                     <Typography
                         component="h3"

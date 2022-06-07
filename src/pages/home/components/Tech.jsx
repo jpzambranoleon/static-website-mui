@@ -21,7 +21,7 @@ const Tech = () => {
                 color="text.secondary" 
                 paragraph
             >
-                Our web apps are designed to match the quality of modern apps and be simple to use
+                Our web apps are designed to match the quality of modern apps and being simple to use.
             </Typography>
             <Grid container spacing={3} align="center">
                 <Grid item sx={12} sm={4}>
