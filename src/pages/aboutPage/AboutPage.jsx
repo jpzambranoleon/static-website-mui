@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, ImageListItem, Typography } from "@mui/material";
 
 const itemData = [
     {
@@ -14,33 +14,25 @@ export default function AboutPage() {
                 <Container>
                     <Grid container spacing={3}>
                         <Grid item sx={12} sm={6}>
-                            <Box sx={{ pt: { xl: 15 } }}>
+                            <Box>
                                 <Typography
                                     component="h1"
-                                    variant="h1"
-                                    align="left"
-                                    color="text.primary"
+                                    variant="h3"
+                                    align="center"
+                                    color="primary"
                                 >
-                                    404
+                                    About
                                 </Typography>
                                 <Typography 
                                     variant="h6" 
                                     align="left" 
                                     color="text.secondary" 
                                 >
-                                    Oops! Looks like you followed a bad link or the page hasn't been set up yet.
+                                    We are a small group of developers and business partners. 
+                                    We created this company to build convenient web applications that meet the needs of niche markets and groups.
+                                    It started as a small project by Jean-Paul Zambrano-Leon and Zurab Sabakhtarishvili. They added Shane Smith and Albert Zhang as collaborators.
+                                    These four friends are working to build their ideas to life and share it within the digital market.
                                 </Typography>
-                                <Typography 
-                                    variant="h6" 
-                                    align="left" 
-                                    color="text.secondary"
-                                    paragraph
-                                >
-                                    {/*If you think this is a problem with us, please tell us */}
-                                </Typography>
-                                <Button variant="contained" size="large" sx={{ mt: 1 }}>
-                                    Back home
-                                </Button>
                             </Box>
                         </Grid>
                         <Grid item xs={12} sm={6}>
