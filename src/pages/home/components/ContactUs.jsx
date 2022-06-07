@@ -1,5 +1,5 @@
 import { Mail } from "@mui/icons-material";
-import { Button, Container, Typography } from "@mui/material";
+import { Box, Button, Card, CardContent, CardMedia, Container, Grid, ImageListItem, Typography } from "@mui/material";
 
 const ContactUs = () => {
     return (
@@ -38,10 +38,56 @@ const ContactUs = () => {
                         Contact us
                     </Typography>
                 </Button>
-                <Typography color="text.secondary">
+                <Typography color="text.secondary" gutterBottom>
                     Coming Soon
                 </Typography>
             </Typography>
+            <Box sx={{ mt: 3 }}>
+                <Grid container spacing={3}>
+                    <Grid item sx={12} sm={6}>
+                        <Box sx={{ mt: { xl: 7 } }}>
+                            <Typography
+                                variant="h5"
+                                color="primary"
+                                gutterBottom
+                            >
+                                Team Finder
+                            </Typography>
+                            <Typography
+                                variant="body1"
+                                color="text.secondary"
+                                paragraph
+                            >
+                                Find soccer players, teams, and trainers in your area. 
+                                A message board for those interested in finding others to play soccer with.
+                            </Typography>
+                            <Button
+                                variant="contained"
+                                disabled
+                            >
+                                Learn more
+                            </Button>
+                            <Typography
+                                variant="body1"
+                                color="text.secondary"
+                                paragraph
+                            >
+                                Coming soon
+                            </Typography>
+                        </Box>
+                    </Grid>
+                    <Grid item sx={12} sm={6}>
+                        <Card>
+                            <CardMedia 
+                                component="img"
+                                height="260"
+                                image="/images/coming-soon.jpg"
+                                alt="coming-soon"  
+                            />
+                        </Card>
+                    </Grid>
+                </Grid>
+            </Box>
         </Container>
     )
 };
