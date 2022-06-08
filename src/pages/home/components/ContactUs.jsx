@@ -80,7 +80,7 @@ const ContactUs = () => {
                             <CardMedia 
                                 component="img"
                                 height="260"
-                                image="/images/team-finder.jpg"
+                                image="/images/team-finder.JPG"
                                 alt="coming-soon"  
                             />
                         </Card>
