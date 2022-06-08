@@ -28,7 +28,7 @@ const Navbar = () => {
                     </Box>
                     <IconButton 
                         color="primary" 
-                        sx={{ display: { xs: 'block', sm: 'none' } }}
+                        sx={{ display: { xs: 'flex', sm: 'none' } }}
                         onClick={handleDrawerOpen}
                     >
                         <Menu />
