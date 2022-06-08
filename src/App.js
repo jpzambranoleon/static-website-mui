@@ -9,15 +9,16 @@ import Home from "./pages/home/Home";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
+        <Navbar />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/not-found" element={<Error404 />} />
+          <Route path="/*" element={<Error404 />} />
         </Routes>
       </Router>
-      <Box sx={{ bgcolor: 'background.paper', pt: 8, pb: 6, }}>
+      <Box sx={{ bgcolor: "background.paper", pt: 8, pb: 6 }}>
         <Copyright />
       </Box>
     </div>
