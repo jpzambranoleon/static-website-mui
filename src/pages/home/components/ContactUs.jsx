@@ -75,7 +75,7 @@ const ContactUs = () => {
                             </Typography>
                         </Box>
                     </Grid>
-                    <Grid item sx={12} sm={6}>
+                    <Grid item sx={12} sm={6} xs={12}>
                         <Card>
                             <CardMedia 
                                 component="img"
