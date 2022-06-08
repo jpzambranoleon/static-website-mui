@@ -2,15 +2,15 @@ import { Box, ImageList, ImageListItem } from "@mui/material";
 
 const itemData = [
     {
-        img: '/images/plans.jpg',
+        img: '/images/plans_crop.jpg',
         title: 'plans'
     },
     {
-        img: '/images/app_unsplash.jpg',
+        img: '/images/app_crop.jpg',
         title: 'app'
     },
     {
-        img: '/images/develop.jpg',
+        img: '/images/develop_crop.jpg',
         title: 'develop'
     },
 ]
