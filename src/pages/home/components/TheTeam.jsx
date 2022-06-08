@@ -37,7 +37,7 @@ const TheTeam = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
-            <CardMedia component="img" height="260" image="/images/zura_cio.jpg" alt="portrait" />
+            <CardMedia component="img" height="260" image="/images/zura_cio.JPG" alt="zura" />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="div">
                 Zurab Sabakhtarishvili
