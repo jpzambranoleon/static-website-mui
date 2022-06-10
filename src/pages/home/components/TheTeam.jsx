@@ -88,7 +88,7 @@ const TheTeam = () => {
                 Albert Zhang
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Chief Financial Officer, Co-founder
+                Chief Operations Officer, Co-founder
               </Typography>
             </CardContent>
             <CardActions>
