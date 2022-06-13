@@ -21,7 +21,7 @@ const Navbar = () => {
           <Box>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <Button component={Link} to="/" color="primary">
-                Menu
+                Home
               </Button>
               <Button component={Link} to="/about" color="primary">
                 About
