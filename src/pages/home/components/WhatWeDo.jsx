@@ -11,7 +11,7 @@ const WhatWeDo = () => {
         We craft convenient web apps and digital products
       </Typography>
       <Typography variant="h6" align="center" color="text.secondary" paragraph>
-        We design, build, and deploy web applications and digital products that are simple and easy to use.
+        We design, build and deploy web applications and digital products that are simple and easy to use.
       </Typography>
       <Grid container spacing={2}>
         <Grid item xs={12} sm={6} md={4}>
