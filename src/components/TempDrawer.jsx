@@ -18,14 +18,14 @@ const TempDrawer = ({ openDrawer, setOpenDrawer }) => {
             </ListItem>
             <hr />
             <ListItem disablePadding>
-              <ListItemButton component={Link} to="/">
+              <ListItemButton onClick={handleDrawerClose} component={Link} to="/">
                 <ListItemText>
                   <Typography>Home</Typography>
                 </ListItemText>
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
-              <ListItemButton component={Link} to="/about">
+              <ListItemButton onClick={handleDrawerClose} component={Link} to="/about">
                 <ListItemText>
                   <Typography>About</Typography>
                 </ListItemText>
