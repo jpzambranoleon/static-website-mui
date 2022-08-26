@@ -13,15 +13,24 @@ export default function AboutPage() {
       <Box sx={{ bgcolor: "background.paper", pt: 8, pb: 6 }}>
         <Container>
           <Grid container spacing={3}>
-            <Grid item sx={12} sm={6}>
+            <Grid item xs={12} sm={6}>
               <Box>
-                <Typography component="h1" variant="h3" align="center" color="primary">
+                <Typography
+                  component="h1"
+                  variant="h3"
+                  align="center"
+                  color="primary"
+                >
                   About
                 </Typography>
                 <Typography variant="h6" align="left" color="text.secondary">
-                  We are a small group of developers and business partners. We created this company to build convenient web applications that meet the needs of
-                  niche markets and groups. It started as a small project by <b>Jean-Paul Zambrano-Leon</b> and <b>Zurab Sabakhtarishvili</b>. They added{" "}
-                  <b>Shane Smith</b> and <b>Albert Zhang</b> as collaborators. These four friends are working to build their ideas to life and share it within
+                  We are a small group of developers and business partners. We
+                  created this company to build convenient web applications that
+                  meet the needs of niche markets and groups. It started as a
+                  small project by <b>Jean-Paul Zambrano-Leon</b> and{" "}
+                  <b>Zurab Sabakhtarishvili</b>. They added <b>Shane Smith</b>{" "}
+                  and <b>Albert Zhang</b> as collaborators. These four friends
+                  are working to build their ideas to life and share it within
                   the digital market.
                 </Typography>
               </Box>

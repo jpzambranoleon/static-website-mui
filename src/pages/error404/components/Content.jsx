@@ -1,4 +1,11 @@
-import { Box, Button, Container, Grid, ImageListItem, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Container,
+  Grid,
+  ImageListItem,
+  Typography,
+} from "@mui/material";
 import { useNavigate } from "react-router-dom";
 const itemData = [
   {
@@ -13,18 +20,34 @@ const Content = () => {
   return (
     <Container>
       <Grid container spacing={3}>
-        <Grid item sx={12} sm={6}>
+        <Grid item xs={12} sm={6}>
           <Box sx={{ pt: { xl: 15 } }}>
-            <Typography component="h1" variant="h1" align="left" color="text.primary">
+            <Typography
+              component="h1"
+              variant="h1"
+              align="left"
+              color="text.primary"
+            >
               404
             </Typography>
             <Typography variant="h6" align="left" color="text.secondary">
-              Oops! Looks like you followed a bad link or the page hasn't been set up yet.
+              Oops! Looks like you followed a bad link or the page hasn't been
+              set up yet.
             </Typography>
-            <Typography variant="h6" align="left" color="text.secondary" paragraph>
+            <Typography
+              variant="h6"
+              align="left"
+              color="text.secondary"
+              paragraph
+            >
               {/*If you think this is a problem with us, please tell us */}
             </Typography>
-            <Button onClick={() => navigate("/")} variant="contained" size="large" sx={{ mt: 1 }}>
+            <Button
+              onClick={() => navigate("/")}
+              variant="contained"
+              size="large"
+              sx={{ mt: 1 }}
+            >
               Back home
             </Button>
           </Box>

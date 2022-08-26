@@ -1,19 +1,48 @@
 import { Facebook, GitHub, LinkedIn } from "@mui/icons-material";
-import { Card, CardActions, CardContent, CardMedia, Container, Grid, IconButton, Typography } from "@mui/material";
+import {
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Container,
+  Grid,
+  IconButton,
+  Typography,
+} from "@mui/material";
 
 const TheTeam = () => {
   return (
     <Container id="our-team">
-      <Typography component="h1" variant="h6" align="center" color="primary" gutterBottom>
+      <Typography
+        component="h1"
+        variant="h6"
+        align="center"
+        color="primary"
+        gutterBottom
+      >
         OUR TEAM
       </Typography>
-      <Typography component="h1" variant="h4" align="center" color="text.primary" fontWeight="bold" gutterBottom>
+      <Typography
+        component="h1"
+        variant="h4"
+        align="center"
+        color="text.primary"
+        fontWeight="bold"
+        gutterBottom
+      >
         Meet the professionals
       </Typography>
       <Grid container spacing={4}>
         <Grid item xs={12} sm={6} md={3}>
-          <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
-            <CardMedia component="img" height="260" image="/images/jp_ceo.jpg" alt="portrait" />
+          <Card
+            sx={{ height: "100%", display: "flex", flexDirection: "column" }}
+          >
+            <CardMedia
+              component="img"
+              height="260"
+              image="/images/jp_ceo.jpg"
+              alt="portrait"
+            />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="div">
                 Jean-Paul Zambrano-Leon
@@ -36,8 +65,15 @@ const TheTeam = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
-            <CardMedia component="img" height="260" image="/images/zura_cio.JPG" alt="zura" />
+          <Card
+            sx={{ height: "100%", display: "flex", flexDirection: "column" }}
+          >
+            <CardMedia
+              component="img"
+              height="260"
+              image="/images/zura_cio.JPG"
+              alt="zura"
+            />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="div">
                 Zurab Sabakhtarishvili
@@ -60,8 +96,15 @@ const TheTeam = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
-            <CardMedia component="img" height="260" image="/images/shane_cfo.jpg" alt="portrait" />
+          <Card
+            sx={{ height: "100%", display: "flex", flexDirection: "column" }}
+          >
+            <CardMedia
+              component="img"
+              height="260"
+              image="/images/shane_cfo.jpg"
+              alt="portrait"
+            />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="div">
                 Shane Smith
@@ -81,8 +124,15 @@ const TheTeam = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
-            <CardMedia component="img" height="260" image="/images/albert_cfo.jpg" alt="portrait" />
+          <Card
+            sx={{ height: "100%", display: "flex", flexDirection: "column" }}
+          >
+            <CardMedia
+              component="img"
+              height="260"
+              image="/images/albert_cfo.jpg"
+              alt="portrait"
+            />
             <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="div">
                 Albert Zhang
