@@ -1,0 +1,76 @@
+@use "../global" as *;
+
+.service {
+    &__list {
+        display: grid;
+        gap: 30px;
+
+        @media (min-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (min-width: 992px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__card {
+        padding: 30px;
+        box-shadow: $shadow;
+        border-radius: $radius-12;
+
+        .card-icon {
+            background-image: url("/assets/images/service-banner-pattern.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: hsla(335, 87%, 53%, 0.12);
+            aspect-ratio: 1 / 1;
+            max-width: 165px;
+            display: grid;
+            place-content: center;
+            margin-inline: auto;
+            transition: $transition-1;
+
+            .ion-icon {
+                font-size: 5rem;
+                color: $winter-sky;
+                stroke-width: 20px;
+                transition: $transition-1;
+            }
+        }
+
+        &:hover {
+            .card-icon {
+                background-color: $winter-sky;
+
+                .ion-icon {
+                    color: $white;
+                }
+            }
+        }
+
+        .title {
+            text-align: center;
+            margin-block-end: 15px;
+        }
+
+        .text {
+            text-align: center;
+            margin-block-end: 20px;
+        }
+
+        .card-btn {
+            margin-inline: auto;
+            padding: 15px;
+            border: 1px solid $winter-sky;
+            border-radius: 50%;
+            color: $winter-sky;
+            transition: $transition-1;
+
+            &:is(:hover, :focus) {
+                color: $white;
+                background-color: $winter-sky;
+            }
+        }
+    }
+}

@@ -1,0 +1,130 @@
+@use "../global" as *;
+
+.footer { font-size: $fs-8; }
+
+.footer a { color: inherit; }
+
+.footer-top {
+  background-image: url("/assets/images/footer-bg.png"), $gradient-1;
+  background-repeat: no-repeat;
+  background-size: auto, 200%;
+  background-position: center, center;
+  color: $white;
+}
+
+.footer-top .container {
+    @media (min-width: 550px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 50px;
+    }
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 992px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (min-width: 1200px) {
+        grid-template-columns: 1fr 0.5fr 0.7fr 0.5fr 1fr;
+    }
+}
+
+.footer-brand { 
+    margin-block-end: 30px;
+
+    @media (min-width: 550px) {
+        margin-block-end: 0;
+    }
+
+    @media (min-width: 992px) {
+        grid-column: 1 /5;
+    }
+
+    @media (min-width: 1200px) {
+        grid-column: auto;
+    }
+}
+
+.footer-brand .logo {
+  font-weight: $fw-700;
+  margin-block-end: 15px;
+
+    @media (min-width: 992px) {
+        max-width: 45ch;
+    }
+}
+
+.footer-brand .text {
+  font-size: $fs-8;
+  margin-block-end: 20px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-top .social-link {
+  background-color: $white;
+  color: $winter-sky;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.footer-top .social-link:is(:hover, :focus) {
+  background-image: $gradient-2;
+  color: $white;
+}
+
+.footer-list:not(:last-child) { 
+    margin-block-end: 25px;
+
+    @media (min-width: 550px) {
+        margin-block-end: 0;
+    }
+}
+
+.footer-list-title {
+  font-family: $ff-source-sans-pro;
+  font-size: $fs-5;
+  font-weight: $fw-700;
+  margin-block-end: 15px;
+}
+
+.footer-link { padding-block: 5px; }
+
+:is(.footer-link, .footer-item-link):not(address):is(:hover, :focus) { text-decoration: underline; }
+
+.footer-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding-block: 10px;
+}
+
+.footer-item-icon {
+  background-image: $gradient-2;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.footer-bottom {
+  background-color: $space-cadet-2;
+  padding: 20px;
+  text-align: center;
+  color: $white;
+}
+
+.copyright-link {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.copyright-link:is(:hover, :focus) { text-decoration: none; }

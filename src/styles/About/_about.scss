@@ -1,0 +1,55 @@
+@use "../global" as *;
+
+.about-banner {
+    margin-block-end: 30px;
+}
+
+.about {
+    .section-title {
+        margin-inline: 0;
+    }
+    
+    .underline::before {
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .container {
+        @media (min-width: 992px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+    }
+}
+
+.about-content {
+    &__text {
+        font-size: $fs-8;
+        margin-block-end: 20px;
+    }
+}
+
+.stats-list {
+    display: grid;
+    gap: 30px;
+
+    @media (min-width: 550px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+  
+.stats-card {
+    text-align: center;
+    padding: 15px;
+    box-shadow: $shadow;
+    border-radius: $radius-12;
+}
+  
+.stats-title {
+    color: $st-patrick-blue;
+    font-size:  $fs-2;
+    font-weight: $fw-700;
+}
+  
+.stats-text { font-size: $fs-8; }

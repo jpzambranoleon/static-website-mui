@@ -1,0 +1,61 @@
+@use "../global" as *;
+
+.hero {
+    background-image: url("/assets/images/hero-bg-bottom.png"),
+    url("/assets/images/hero-bg.png"), $gradient-1;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: -280px bottom, center, center;
+    background-size: auto, cover, auto;
+    padding-block-start: 120px;
+    padding-block-end: $section-padding;
+
+    @media (min-width: 768px) { 
+        min-height: 600px;
+        display: grid;
+        place-items: center;
+    }
+
+    @media (min-width: 1200px) {
+       min-height: 800px;
+    }
+
+    .container {
+        @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+}
+
+.hero-content {
+    margin-block-end: 50px;
+
+    @media (min-width: 768px) {
+        margin-block-end: 0;
+    }
+
+    &__subtitle {
+        color: $chrome-yellow;
+        font-family: $ff-source-sans-pro;
+        font-size: $fs-7;
+        margin-block-end: 15px;
+    }
+
+    &__title {
+        color: $bg-white;
+        font-size: $fs-1;
+        margin-block-end: 20px;
+
+        @media (min-width: 992px) {
+            font-size: 5.4rem;
+        }
+    }
+
+    &__text {
+        color: $bg-white;
+        font-size: $fs-8;
+        margin-block-end: 30px;
+      }
+}

@@ -1,0 +1,157 @@
+@use "../global/" as *;
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 14px;
+    z-index: 4;
+    transition: $transition-1;
+
+    @media (min-width: 992px) {
+        padding-block: 20px;
+    }
+
+    .btn {
+        display: none;
+
+        @media (min-width: 550px) {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-inline-start: auto;
+        }
+    
+        @media (min-width: 992px) {
+            margin-inline-start: 0;
+        }
+    }
+
+    .active {
+        position: fixed;
+        background-color: $white;
+        box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);       
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+.logo {
+    color: $white;
+    font-family: $ff-source-sans-pro;
+    font-size: $fs-3;
+}
+
+.nav-open-btn {
+    color: $white;
+    font-size: 32px;
+    padding: 4px;
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
+
+.navbar {
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    left: -280px;
+    width: 100%;
+    max-width: 280px;
+    min-height: 100%;
+    padding: 20px;
+    visibility: hidden;
+    z-index: 2;
+    transition: 0.25s $cubic-out;
+
+    @media (min-width: 992px) {
+        all: unset;
+        margin-inline-start: auto;
+    }
+
+    .active {
+        transform: translate(280px);
+        visibility: visible;
+        transition: 0.5s $cubic-out;
+    
+        @media (min-width: 992px) {
+            all: unset;
+            margin-inline-start: auto;
+        }
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 10px 30px;
+    
+        @media (min-width: 992px) {
+            display: none;
+        }
+
+        .logo {
+            color: $st-patrick-blue;
+            font-size: 4.2rem;
+            font-weight: $fw-700;
+        }
+    }
+
+    &__list {
+        @media (min-width: 992px) {
+            display: flex;
+            gap: 25px;
+        }
+    }
+
+    &__item:not(:last-child) {
+        border-bottom: 1px solid $platinum;
+    
+        @media (min-width: 992px) {
+            border-bottom: none;
+        }
+    }
+
+    &__link {
+        color: $space-cadet-1;
+        font-size: $fs-8;
+        font-weight: $fw-600;
+        padding-block: 12px;
+    
+        @media (min-width: 992px) {
+            color: $white;
+        }
+    }
+}
+  
+.nav-close-btn {
+    color: $space-cadet-1;
+    font-size: 2.8rem;
+    padding: 4px;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: $black_70;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: $transition-2;
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+
+    .active {
+        opacity: 1;
+        pointer-events: all;
+    }
+}
