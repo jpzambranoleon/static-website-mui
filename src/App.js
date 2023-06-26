@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import AboutPage from "./pages/aboutPage/AboutPage";
 import Error404 from "./pages/error404/Error404";
 import Home from "./views/Home";
+import Team from "./views/Team";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </Router>
     </div>
